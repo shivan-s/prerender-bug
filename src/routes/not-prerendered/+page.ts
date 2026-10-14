@@ -1,7 +1,7 @@
 export const prerender = false;
 
 export function load() {
-return {
-pageTitle: 'Not Prerendered'
-}
+	return {
+		pageTitle: 'Not Prerendered'
+	};
 }
