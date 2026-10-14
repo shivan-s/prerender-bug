@@ -1,0 +1,8 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	// Top-level configuration
+	"name": "prerender-bug",
+	"page_build_output_dir": "./sveltekit/cloudflare",
+	"upload_source_maps": true,
+	"compatibility_date": "2026-10-14",
+}
