@@ -6,9 +6,11 @@
 	import type { LayoutProps } from './$types';
 
 	let { children }: LayoutProps = $props();
+	let pageTitle = $derived(page.data['pageTitle'] ? page.data['pageTitle'] : 'Home');
 </script>
 
 <svelte:head>
+	<title>{pageTitle}</title>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
