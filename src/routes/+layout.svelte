@@ -4,6 +4,7 @@
 	import { page } from '$app/state';
 	import favicon from '#lib/assets/favicon.svg';
 	import type { LayoutProps } from './$types';
+	import '#lib/assets/styles.css';
 
 	let { children }: LayoutProps = $props();
 	let pageTitle = $derived(page.data['pageTitle'] ? page.data['pageTitle'] : 'Home');
